@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Date;
 
 public class pessoa {   
@@ -6,12 +8,11 @@ public class pessoa {
     public String endereco;
     public String RG;
     public Date data_nascimento;
-
-    public pessoa(String_nome, String_cpf, String_endereco, String_RG,string_data){
+    
+    public pessoa(String _nome, String _cpf, String _endereco, Date _data){
         this.nome= _nome;
         this.cpf= _cpf;
         this.endereco= RG;
-        this.data_nascimento= _data;
+        this.data_nascimento=_data;
     }
-    
-}
+}    

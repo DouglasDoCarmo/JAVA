@@ -10,9 +10,9 @@ public class pessoa {
     public Date data_nascimento;
     
     public pessoa(String _nome, String _cpf, String _endereco, Date _data){
-        this.nome= _nome;
-        this.cpf= _cpf;
-        this.endereco= RG;
-        this.data_nascimento=_data;
+        this.nome = _nome;
+        this.cpf = _cpf;
+        this.endereco = RG;
+        this.data_nascimento =_data;
     }
 }    

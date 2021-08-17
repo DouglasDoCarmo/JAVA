@@ -9,7 +9,7 @@ public class pessoa {
     public String RG;
     public Date data_nascimento;
     
-    public pessoa(String _nome, String _cpf, String _endereco, String RG,Date _data){
+    public pessoa(String _nome, String _cpf, String _endereco, String _RG, Date _data){
         this.nome = _nome;
         this.cpf = _cpf;
         this.endereco = _endereco;

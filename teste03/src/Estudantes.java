@@ -5,4 +5,8 @@ public class Estudantes extends Pessoa {
         super(_name, _cpf, _endereco, _RG, _data);
     } 
     protected String matricula;
+    public double tirarCopias(int qtd) {
+        //Preço pata tirar xerox//
+        return 0,07 * (double) qtd;
+    }
 }

@@ -5,6 +5,6 @@ public class Professores extends Pessoa {
     super(_name, _cpf, _endereco, _RG,_data);
     }
     protected double salario;
-    protected String funcao;   
+    protected String diciplina;   
 }
 

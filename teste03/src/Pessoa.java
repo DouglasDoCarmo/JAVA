@@ -24,4 +24,16 @@ public class Pessoa {
     public void setNome(String nome){
         this.nome = nome;
     }
+
+    public String getCpf(){
+        return cpf;
+    }
+
+    public void setCpf(String cpf){
+        this.cpf=cpf;
+    }
+    public double tirarCopias(int qtd){
+        //Retorna o preço da copia//
+        return 0.15 * (double) qtd;
+    }
 }    
